@@ -1,0 +1,47 @@
+@media screen and (min-width: 769px){
+.white-fontA{
+    font-size: 60px;
+    color: rgba(255, 255,255, 1);
+}
+.black-fontA{
+    font-size: 60px;
+    color: rgba(0,0,0, 1);
+}
+.white-fontB{
+    font-size: 40px;
+    color: rgba(255, 255,255, 1);
+}
+.black-fontB{
+    font-size: 40px;
+    color: rgba(0,0,0, 1);
+}
+.white-fontC{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1)
+}
+.black-fontC{
+    font-size: 30px;
+    color: rgba(0,0,0, 1);
+}
+.white-fontD{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1)
+}
+.black-fontD{
+    font-size: 20px;
+    color: rgba(0,0,0, 1);
+}
+.change_arrowR{
+    right: 40%;
+}
+.change_arrowL{
+    left: 40%;
+}
+.page_change_arrowR{
+    right: 40%;
+    
+}
+.page_change_arrowL{
+    left: 40%;
+}
+}

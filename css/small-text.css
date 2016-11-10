@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px){
+.white-fontA{
+    font-size: 25px;
+    color: rgba(255, 255,255, 1);
+}
+.black-fontA{
+    font-size: 25px;
+    color: rgba(0,0,0, 1);
+}
+.white-fontB{
+    font-size: 20px;
+    color: rgba(255, 255,255, 1);
+}
+.black-fontB{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+#logo{
+    max-width: 60%;
+}
+.white-fontC{
+    font-size: 16px;
+    color: rgba(255, 255,255, 1);
+}
+.black-fontC{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.white-fontD{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1)
+}
+.black-fontD{
+    font-size: 16px;
+    color: rgba(0,0,0, 1);
+}
+.change_arrowR{
+    right: 37%;
+    top: 7%;
+}
+.change_arrowL{
+    left: 37%;
+    top: 7%;
+}
+.page_change_arrowR{
+    right: 36%;
+    width: 3%;
+}
+.page_change_arrowL{
+    left: 36%;
+    width: 3%;
+}
+#r_pagechange_button{
+    bottom: -80px;
+}
+#r_daychange_button{
+    top: 35px;
+}
+#r_page_count{
+    left: calc(50% - 2vw);
+}
+#t_daychange_button{
+    top: 35px;
+}
+}
