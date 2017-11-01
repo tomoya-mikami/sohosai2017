@@ -64,16 +64,19 @@ $(function () {
     /*日付を変える*/
     $(document).on("click", "#t_daychange_R", function () {
         theater_daymode += 1;
-        theater_table();
-        var $t_daychange_button = $("#t_daychange_button");
-        $t_daychange_button.html("<div id=\"t_daychange_L\"><img src=\"img/pictures-edited/menew-left-black.png\" class=\"change_arrowL\"></div>");
-    });
+        var $t_daychange_button = $("#theater_day_table_top");
+        $t_daychange_button.html("<tr><td><div id=\"t_daychange_L\"> < </div></td><td><div id=\"theater_day\"></div></td></tr>");
+		theater_table();
+		theater_timetable_day();
+	});
     $(document).on("click", "#t_daychange_L", function () {
         theater_daymode -= 1;
         theater_table();
-        var $t_daychange_button = $("#t_daychange_button");
-        $t_daychange_button.html("<div id=\"t_daychange_R\"><img src=\"img/pictures-edited/menew-right-black.png\" class=\"change_arrowR\"></div>");
-    });
+        var $t_daychange_button = $("#theater_day_table_top");
+        $t_daychange_button.html("<tr><td><div id=\"theater_day\"></div></td><td><div id=\"t_daychange_R\"> > </div></td></tr>");
+		theater_table();
+		theater_timetable_day();
+	});
 
 });
 
@@ -88,87 +91,94 @@ function pp(n) { //pretty print
 
 /*ラジオのタイムテーブルを10件づつだす関数*/
 function radio_table() {
-    var radiott = $("#radiotable");
-    var $output_table = $("#radiotable-day");
-    var $radiotime = timetable.radio;
-    var $elme = $("#radio_day");
+	var radiott = $("#radiotable");
+	var $output_table = $("#radiotable-day");
+	var $radiotime = timetable.radio;
+	var $elme = $("#radio_day");
 
-    /*テーブルの初期化*/
-    $output_table.text("");
-    /*編集するページを会得*/
-    if (radio_daymode % 2 == 0) {
-        $elme.text("1日目");
-        var input_table = timetable.radio.day1;
-    }
-    else {
-        $elme.text("2日目");
-        var input_table = timetable.radio.day2;
-    }
-    for (i = 0; i < 9; i++) {
-        if (radio_daypage * 9 + i > input_table.length - 1) break;
-        else {
-            var $row = $("<tr></tr>");
-            console.log(input_table[radio_daypage * 9 + i].name);
-            /*nameがあまりにも長い時の判定*/
-            if (input_table[radio_daypage * 9 + i].name.length > 42) {
-                $row.append("<td class=\"white-fontD\">" + input_table[radio_daypage * 9 + i].name + "</td>");
-            } else {
-                $row.append("<td>" + input_table[radio_daypage * 9 + i].name + "</td>");
-            }
-            $row.append("<td>" + pp(input_table[radio_daypage * 9 + i].hour) + ":" + pp(input_table[radio_daypage * 9 + i].start_minute) + "</td>");
-            $row.append("<td>" + pp(input_table[radio_daypage * 9 + i].hour) + ":" + pp(input_table[radio_daypage * 9 + i].end_minute) + "</td>");
-            $output_table.append($row);
-        }
-    }
-    page_num();
-    var $page = $("#r_page_count");
-    $page.text((radio_daypage + 1) + "/" + program_num);
+	/*テーブルの初期化*/
+	$output_table.text("");
+	/*編集するページを会得*/
+	if (radio_daymode % 2 == 0) {
+		$elme.text("1日目");
+		var input_table = timetable.radio.day1;
+	}
+	else {
+		$elme.text("2日目");
+		var input_table = timetable.radio.day2;
+	}
+	for (i = 0; i < 9; i++) {
+		if (radio_daypage * 9 + i > input_table.length - 1) break;
+		else {
+			var $row = $("<tr></tr>");
+			console.log(input_table[radio_daypage * 9 + i].name);
+			/*nameがあまりにも長い時の判定*/
+			if (input_table[radio_daypage * 9 + i].name.length > 42) {
+				$row.append("<td class=\"white-fontD\">" + input_table[radio_daypage * 9 + i].name + "</td>");
+			} else {
+				$row.append("<td>" + input_table[radio_daypage * 9 + i].name + "</td>");
+			}
+			$row.append("<td>" + pp(input_table[radio_daypage * 9 + i].hour) + ":" + pp(input_table[radio_daypage * 9 + i].start_minute) + "</td>");
+			$row.append("<td>" + pp(input_table[radio_daypage * 9 + i].hour) + ":" + pp(input_table[radio_daypage * 9 + i].end_minute) + "</td>");
+			$output_table.append($row);
+		}
+	}
+	page_num();
+	var $page = $("#r_page_count");
+	$page.text((radio_daypage + 1) + "/" + program_num);
 }
 
 /*プログラムからページ数を決める関数*/
 function p_num_calc(table) {
-    if (table.length % 9 == 0) {
-        program_num = parseInt(table.length / 9);
-    } else {
-        program_num = parseInt(table.length / 9 + 1);
-    }
+	if (table.length % 9 == 0) {
+		program_num = parseInt(table.length / 9);
+	} else {
+		program_num = parseInt(table.length / 9 + 1);
+	}
 }
 function page_num() {
-    if (radio_daymode % 2 == 0) {
-        p_num_calc(timetable.radio.day1);
-    }
-    else {
-        p_num_calc(timetable.radio.day2);
-    }
+	if (radio_daymode % 2 == 0) {
+		p_num_calc(timetable.radio.day1);
+	}
+	else {
+		p_num_calc(timetable.radio.day2);
+	}
 }
 
 /*内プロページ作成関数*/
 function theater_table() {
-    var theatertt = $("#theatertable");
-    var $output_table = $("#theatertable-day");
-    var $theatertime = timetable.theater;
-    var $elme = $("#theater_day");
+	var theatertt = $("#theatertable");
+	var $output_table = $("#theatertable-day");
+	var $theatertime = timetable.theater;
 
-    /*テーブルの初期化*/
-    $output_table.text("");
-    /*編集するページを会得*/
-    if (theater_daymode % 2 == 0) {
-        $elme.text("1日目");
-        var input_table = timetable.theater.day1;
-    }
-    else {
-        $elme.text("2日目");
-        var input_table = timetable.theater.day2;
-    }
-    for (i = 0; i < 9; i++) {
-        if (i>input_table.length - 1) break;
-        else {
-            var $row = $("<tr></tr>");
-            console.log(input_table[i].program);
-            $row.append("<td>" + input_table[i].program + "</td>");
-            $row.append("<td>" + pp(input_table[i].hour) + ":" + pp(input_table[i].start_minute) + "</td>");
-            $row.append("<td>" + pp(input_table[i].hour) + ":" + pp(input_table[i].end_minute) + "</td>");
-            $output_table.append($row);
-        }
-    }
+	/*テーブルの初期化*/
+	$output_table.text("");
+	/*編集するページを会得*/
+	if (theater_daymode % 2 == 0) {
+		var input_table = timetable.theater.day1;
+	}
+	else {
+		var input_table = timetable.theater.day2;
+	}
+	for (i = 0; i < 9; i++) {
+		if (i>input_table.length - 1) break;
+		else {
+			var $row = $("<tr></tr>");
+			console.log(input_table[i].program);
+			$row.append("<td>" + input_table[i].program + "</td>");
+			$row.append("<td>" + pp(input_table[i].hour) + ":" + pp(input_table[i].start_minute) + "</td>");
+			$row.append("<td>" + pp(input_table[i].hour) + ":" + pp(input_table[i].end_minute) + "</td>");
+			$output_table.append($row);
+		}
+	}
+}
+/*内プロタイムテーブル日付作成関数*/
+function theater_timetable_day() {
+	var $elme = $("#theater_day");
+	if (theater_daymode % 2 == 0) {
+		$elme.text("1日目");
+	}
+	else {
+		$elme.text("2日目");
+	}
 }
