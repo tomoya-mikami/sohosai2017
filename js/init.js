@@ -26,39 +26,39 @@ $(function () {
 
     /*ラジオのページを変える関数*/
     /*日付を変える*/
-    $(document).on("click", "#r_daychange_R", function () {
+	$(document).on("click", "#r_daychange_R", function () {
         radio_daymode += 1;
-        radio_table();
-        var $r_daychange_button = $("#r_daychange_button");
-        $r_daychange_button.html("<div id=\"r_daychange_L\"><img src=\"img/pictures-edited/menew-left.png\" class=\"change_arrowL\"></div>");
-    });
-    $(document).on("click", "#r_daychange_L", function () {
+        var $r_daychange_button = $("#radio_day_table_top");
+        $r_daychange_button.html("<tr><td><div id=\"r_daychange_L\"> < </div></td><td><div id=\"radio_day\"></div></td></tr>");
+		radio_table();
+	});
+	$(document).on("click", "#r_daychange_L", function () {
         radio_daymode -= 1;
-        radio_table();
-        var $r_daychange_button = $("#r_daychange_button");
-        $r_daychange_button.html("<div id=\"r_daychange_R\"><img src=\"img/pictures-edited/menew-right.png\" class=\"change_arrowR\"></div>");
-    });
+        var $r_daychange_button = $("#radio_day_table_top");
+        $r_daychange_button.html("<tr><td><div id=\"radio_day\"></div></td><td><div id=\"r_daychange_R\"> > </div></td></tr>");
+		radio_table();
+	});
 
     /*ページを変える*/
     $(document).on("click", "#r_pagechange_R", function () {
         radio_daypage += 1;
-        radio_table();
-        var $r_daychange_button = $("#r_pagechange_button");
+        var $r_pagechange_button = $("#radio_day_table_bottom");
         if (radio_daypage < program_num - 1) {
-            $r_daychange_button.html("<div id=\"r_pagechange_L\"><img src=\"img/pictures-edited/menew-left.png\" class=\"change_arrowL\"></div> <div id=\"r_pagechange_R\"><img src=\"img/pictures-edited/menew-right.png\" class=\"change_arrowR\"></div>");
+            $r_pagechange_button.html("<tr><td><div id=\"r_pagechange_L\"> < </div></td><td><div id=\"r_page_count\"></div></td><td><div id=\"r_pagechange_R\"> > </div></td></tr>");
         } else {
-            $r_daychange_button.html("<div id=\"r_pagechange_L\"><img src=\"img/pictures-edited/menew-left.png\" class=\"change_arrowL\"></div>");
+            $r_pagechange_button.html("<tr><td><div id=\"r_pagechange_L\"> < </div></td><td><div id=\"r_page_count\"></div></td></tr>");
         }
+		radio_table();
     });
     $(document).on("click", "#r_pagechange_L", function () {
         radio_daypage -= 1;
-        radio_table();
-        var $r_daychange_button = $("#r_pagechange_button");
+        var $r_pagechange_button = $("#radio_day_table_bottom");
         if (radio_daypage > 0) {
-            $r_daychange_button.html("<div id=\"r_pagechange_L\"><img src=\"img/pictures-edited/menew-left.png\" class=\"change_arrowL\"></div> <div id=\"r_pagechange_R\"><img src=\"img/pictures-edited/menew-right.png\" class=\"change_arrowR\"></div>");
+            $r_pagechange_button.html("<tr><td><div id=\"r_pagechange_L\"> < </div></td><td><div id=\"r_page_count\"></div></td><td><div id=\"r_pagechange_R\"> > </div></td></tr>");
         } else {
-            $r_daychange_button.html("<div id=\"r_pagechange_R\"><img src=\"img/pictures-edited/menew-right.png\" class=\"change_arrowR\"></div>");
+            $r_pagechange_button.html("<tr><td><div id=\"r_page_count\"></div></td><td><div id=\"r_pagechange_R\"> > </div></td></tr>");
         }
+		radio_table();
     });
     /*内プロのページを変える関数*/
     /*日付を変える*/
@@ -71,7 +71,6 @@ $(function () {
 	});
     $(document).on("click", "#t_daychange_L", function () {
         theater_daymode -= 1;
-        theater_table();
         var $t_daychange_button = $("#theater_day_table_top");
         $t_daychange_button.html("<tr><td><div id=\"theater_day\"></div></td><td><div id=\"t_daychange_R\"> > </div></td></tr>");
 		theater_table();
@@ -182,3 +181,8 @@ function theater_timetable_day() {
 		$elme.text("2日目");
 	}
 }
+
+$(document).ready( function(){
+	radio_table();
+	theater_table();
+});
