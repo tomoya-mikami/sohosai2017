@@ -15,12 +15,12 @@ $(function () {
         animation: 'fade1',
         animationDuration: 20000,
         slides: [
-            { src: './img/pictures-edited/pic1.png' },
-            { src: './img/pictures-edited/pic2.png' },
-            { src: './img/pictures-edited/pic3.png' },
-            { src: './img/pictures-edited/pic4.png' },
-            { src: './img/pictures-edited/pic5.png' },
-            { src: './img/pictures-edited/pic6.png' },
+            { src: './img/pictures-edited/pic1.jpg' },
+            { src: './img/pictures-edited/pic2.jpg' },
+            { src: './img/pictures-edited/pic3.jpg' },
+            { src: './img/pictures-edited/pic4.jpg' },
+            { src: './img/pictures-edited/pic5.jpg' },
+            { src: './img/pictures-edited/pic6.jpg' },
         ]
     });
 
