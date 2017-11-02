@@ -16,7 +16,7 @@ var timetable = {
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "課題DJ4",
-                "description": "乃木坂46を愛してやまない2人がラジオパレードに登場！彼らのラジオを聴いた瞬間、君も立派な乃木坂ファン！？NMT(なぁちゃん、マジ、天使！)"
+                "description": "新入生によるフレッシュなラジオをお楽しみください"
             },
             {
                 "id": 3,
@@ -24,7 +24,7 @@ var timetable = {
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "仮面ライダーITF.",
-                "description": "「ゆず」と聞いて柑橘系のあの果物を思い浮かべた方…だけではなく、「栄光の架橋」を思い浮かべたそこのあなたにも届けます。「感動」のみならない「ゆず」をご堪能あれ！"
+                "description": "今年もやってきた『仮面ライダーITF.』。2人のパーソナリティが仮面ライダーを熱く語ります！！ 「さぁ、ノーコンティニューで、実験を始めよう！！」"
             },
             {
                 "id": 4,
@@ -32,7 +32,7 @@ var timetable = {
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "外部DJ（Sheep）",
-                "description": "日常で起こる多数のイベント。漢らしく振舞うとはどういうことか。漢とは何か。それは永遠の謎。"
+                "description": ""
             },
             {
                 "id": 5,
@@ -40,7 +40,7 @@ var timetable = {
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "ディズニーリゾートラジオ",
-                "description": "新入生によるフレッシュなラジオをお楽しみください"
+                "description": "ディズニーリゾートが好きな人！という名目で集まった3人が、初心者である虎取くんに手取り足取り色々教える番組です。聞いたらちょっと得する情報もあったり……？ランドやシーが好きな人も、全然わからない人も、ぜひ興味ありましたら聞いてください！"
             },
             {
                 "id": 6,
@@ -48,7 +48,7 @@ var timetable = {
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "女子校ラジオ2017",
-                "description": "｢アイナナ｣ことアイドリッシュセブンの魅力を、アイナナ大好きパーソナリティの2人が熱く語ります。技術の2人の動きにもご注目ください！アイナナはいいぞ……！"
+                "description": "『本物』の女子校出身者が女子校についてあつーーく語ります。女子校の\"あんなこと\"や\"こんなこと\"知りたくありませんか？理想の女子校と真の女子校…果たしてどのくらい違うのでしょうか。"
             },
             {
                 "id": 7,
@@ -56,7 +56,7 @@ var timetable = {
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "課題DJ3",
-                "description": "陸上同好会のひとが陸上に関するあれこれを話してくれます。普段とは少し違ったラジオをお楽しみください"
+                "description": "新入生によるフレッシュなラジオをお楽しみください"
             },
             {
                 "id": 8,
@@ -64,7 +64,7 @@ var timetable = {
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "THK縦女子会",
-                "description": "今年のゲストは、毎年3月につくばゆかりの食やパフォーマンスが集うイベントを運営する「ふるさとつくば ゆいまつり」さん！つくば愛に溢れたラジオをお楽しみに！"
+                "description": "THKとCOINSに所属する1,2,3年生が集まって色々とトークします。といっても他に共通点が無い3人なので、目標は共通点を見つけることです！"
             },
             {
                 "id": 9,
@@ -72,7 +72,7 @@ var timetable = {
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "比較ラジオ学類",
-                "description": "ランダムで集められたメンバーによる予測のつかないラジオをお楽しみください"
+                "description": "「華の比文」なんて異名を持つパッと見キラキラ学類、比文。そろそろキラキラのメッキ、剥がしたくない？THK比文生3人が、割と容赦なく赤裸々に比文の実情を暴露します。"
             },
             {
                 "id": 10,
@@ -88,7 +88,7 @@ var timetable = {
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "とりかごラジオ",
-                "description": "352回目となる今回は、夏休みにディズニーシーに行った3人のアトラクション体験記をお伝えします！ディズニーマスターの里佳先生から裏話も聞けるかも…！？"
+                "description": "鳩と鷲、そして飼い主が繰り広げる筑波大学の鳥類たちのためのラジオ。当日は鳥たちの鳴き声を飼い主が翻訳してお送りします。"
             },
             {
                 "id": 12,
@@ -96,7 +96,7 @@ var timetable = {
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "スマブラジオ",
-                "description": "今年の春に放送された宮藤官九郎さん脚本のドラマ「ゆとりですがなにか」を語ります。自分ゆとり世代だと思ったそこのあなた、ちょっと寄っていきませんか？"
+                "description": "新たな挑戦者が現れた！！1年生、トラトリ！！2年生、サウミン！！3年生、リカ！！彼らが繰り広げる大乱闘を見逃すな！！！ Battle Fight！！！"
             },
             {
                 "id": 13,
@@ -104,7 +104,7 @@ var timetable = {
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "Radio on Ice 2017",
-                "description": "みんなに夢と希望をお届け！これを聞けばあなたも今日から紳士淑女になれるかも？大人のための大人のラジオ！"
+                "description": "年季の入ったフィギュアスケートオタクがお送りする「Radio on Ice」！お題は約4ヶ月後にせまる冬季オリンピック。氷上で繰り広げられる熱き戦いに思いを馳せて。"
             },
             {
                 "id": 14,
@@ -112,7 +112,7 @@ var timetable = {
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "限界（）レディオ",
-                "description": "「自分、歌上手いな」「自分もめっちゃ、うまいなぁ」堺の路上で偶然出会った2人。それが今となっては音楽シーンを引っ張る活躍を見せる2人のことをわずかですが語らせていただきます。"
+                "description": "世間に知られる恋愛通説から恋愛心理学といった学術的なものまで、恋愛にまつわるあれこれをカップルの視点で議論していきます"
             },
             {
                 "id": 15,
@@ -120,7 +120,7 @@ var timetable = {
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "女児の女児による女児のためのラジオ",
-                "description": "夕方のひととき、ラジオを聞いていきませんか？"
+                "description": "女児(笑)の二人がみなさんの知らない女児コンテンツの魅力をお伝えします!"
             },
             {
                 "id": 16,
@@ -128,7 +128,7 @@ var timetable = {
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "DJタイム",
-                "description": "時は満ちた。夢幻の眠りから覚めた我々を止めることは容易でない。ならば受け入れろ、闇を、己を、生を。覇を認め、見果てぬ夢の結末を知るために、共に逝こうではないか"
+                "description": "名前は聞いたことのあるような有名アーティストのテレビやラジオでは中々知れないマイナー曲を次々紹介していきます。"
             },
             {
                 "id": 17,
@@ -136,15 +136,15 @@ var timetable = {
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "コミュニカっていう会誌で2年連続ベストコンビに選ばれた僕らだけど実際のところはどうなんだろう？ラジオ",
-v                "description": "2016年都道府県魅力度ランキング、埼玉県はついに40位を脱します。期は熟し、来たる決戦のとき、果たして埼玉県は東京都を負かすことができるのか…！"
- f           },
+                "description": "コミュニカという会誌で２年連続ベストコンビに選ばれた二人ですが実際のところどうなのでしょう。本日それが明らかになります。"
+            },
             {
                 "id": 18,
                 "hour": 16,
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "Gトーク",
-                "description": "マイティアクションエックス！レッツゲーム！メッチャゲーム！ムッチャゲーム！ワッチャネーム！We are KAMENRIDERs！ラジオを聞けば君も仮面ライダー！"
+                "description": "皆さんは、どんな写真をインスタグラムに載せますか？木十、何らかのこだわりがあることでしょう。今回は、THK1年の野口君のこだわりについて言及します!!"
             },
             {
                 "id": 19,
@@ -152,7 +152,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "俺がお前で、お前が俺で",
-                "description": "もう秋ですね。引退番発の時期になってきましたね。THK渉外部員の端くれが番組発表会についてお話しますね。"
+                "description": "THK会員ですら見間違えるほどの2人が横に座ってラジオ！本当にお互い似てるのか！？「もしかして」「俺たち」「「入れ替わってる～～！？」」"
             },
             {
                 "id": 20,
@@ -160,7 +160,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "みんくさん！何が聞きたい！？",
-                "description": "なんとなく集められた4人。彼らの唯一の共通点は『誰よりも面白いことが言えるという自負』。勝手に学年代表となった彼らは、学年の維持と誇りを賭けた闘いに挑む…！！"
+                "description": "学類もサークルもバイトも同じ2人がラジオで話しま…あれ…！？話しすぎて話すことなくない？ということでみんくさんが聞きたい話をするラジオです"
             },
             {
                 "id": 21,
@@ -168,7 +168,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "みんなのうた",
-                "description": "ランダムで集められたメンバーによる予測のつかないラジオをお楽しみください"
+                "description": "家族みんなで曲を聴く文化が無いと言われる現代、大学生3人が今あなたに聞いてほしい曲を紹介します。新たな世界を覗いてみませんか？"
             },
             {
                 "id": 22,
@@ -176,7 +176,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "ぷえ☆らじ",
-                "description": "今、エリクサー、使ったろ？"
+                "description": "THK1年の巨畠とTHK2年の豊川でお送りする「ぷえ☆ラジ」。先輩後輩コンビの我々が、つくばのお店などについて語ります!!"
             },
             {
                 "id": 23,
@@ -184,7 +184,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "女子高ラジオ2017",
-                "description": "友達の少ない田中が雙峰祭の場を借りてお友達を募集します！田中が独り、「数打ちゃ当たる」方式で趣味を垂れ流す15分。なお、技術はおのまちこでお送りします。"
+                "description": ""
             },
             {
                 "id": 24,
@@ -200,7 +200,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "らふあんどぴーす",
-                "description": "ﾐｰﾐﾐﾐﾐﾐﾐｰﾐﾐﾐﾐﾐ……高らかな笑いと華麗なツッコミが響き渡る『 ﾐﾐﾐの部屋 ＼ﾌｧｲﾅﾙ／ 』2年間の終止符をうちます！来てね！！！！！"
+                "description": "声優・歌手、もといエンターテイナーとして活躍する宮野真守の公式FC「Laugh＆Peace」会員である2人が、ひたすらマモについて語り倒す番組です。"
             },
             {
                 "id": 26,
@@ -208,7 +208,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "外部DJ（Guest: 斬桐舞さん）",
-                "description": "負けられない戦いがそこにある。圧倒的弱者が圧倒的強者に立ち向かう！これが本当の下克上！"
+                "description": ""
             },
             {
                 "id": 27,
@@ -216,7 +216,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 59,
                 "name": "THKラジオ学類！",
-                "description": "通っていた男子校に思いを馳せ、この世の中の常識を疑い、いかに安全なトークが出来るのか。我々は明日もラジオが出来るのか。試される15分。男子校万歳。"
+                "description": "THKラジオ学類が雙峰祭でも...!?"
             },
 /*            {
                 "id": 28,
@@ -235,7 +235,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "会長の捨て台詞",
-                "description": "雙峰祭２日目ですみなさん、準備はいいですか？"
+                "description": "昨年一人語りをしたところ、お客さん皆さん帰られていきました。今年は何人が帰るのか。乞うご期待。(内容は会員から会長への尋問タイムです)"
             },
             {
                 "id": 2,
@@ -243,7 +243,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "内プロラジオ",
-                "description": "2年前、なかよくなるためにDJトークをした2人が「なかよくなりました」と称し再びトークに挑みます…ってあれ、タイトルの（仮）はどういうことだ！！"
+                "description": "THKは生ラジオだけじゃない！同時並行で行われてる室内企画「THK秋の番組発表会2017」の魅力を語ります！"
             },
             {
                 "id": 3,
@@ -251,7 +251,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "福岡弁いいなぁ、とよく言われるけど、その実態を確かめてもらうラジオ",
-                "description": "みんな大好き柿ぴー。しかしそこには柿ピー派、ピーナッツ派、バランス派という３つの宗派が存在した…柿ピーのプライドを賭けた戦いが今始まる…"
+                "description": "故郷から遠く離れた筑波の地で偶然にも知り合った福岡出身4人組。福岡出身といえど実は少しずつ違いがあったりして…？福岡弁の魅力ば伝えられたらよかっち思っとっと！"
             },
             {
                 "id": 4,
@@ -259,7 +259,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "サイコロラジオ",
-                "description": "筑波大学　斬桐舞さんとお送りする『きりきりの時間☆』！「あなたが知ってるソーランだけがソーランじゃない？！」午後のステージが見逃せなくなる15分間。お楽しみに！"
+                "description": "サイコロジー(心理学)を学ぶ2人がサイコロ振って仲良くサイコロトークをします♪"
             },
             {
                 "id": 5,
@@ -267,7 +267,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "ITF.のらーめん好きが語るらーめんらぢお",
-                "description": "回りくどくて単純で、切なくて痛くて、でも時々温かい。そんなクリープハイプの世界観に魅了された3人が、好きな曲について思う存分語ります。"
+                "description": "筑波には皆がまだまだ知らない美味しいらーめん屋が存在する...!?THKでラーメン三昧な二人が筑波大学周辺のらーめんについて語ります。"
             },
             {
                 "id": 6,
@@ -275,7 +275,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "ゲス極のゲスくない世界",
-                "description": "新入生のフレッシュなラジオをお楽しみください"
+                "description": "ゲスの極み乙女。の切ない曲たちを知っていますか？テレビで見ているだけでは知れない、ゲスの極み乙女。の1面を語ります。"
             },
             {
                 "id": 7,
@@ -283,7 +283,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "アイマスラジオ",
-                "description": "シンガーソングライターの大森靖子さんが描く独特で平凡な世界。彼女が紡ぎ出す言葉はあなたを救うかもしれない。彼女の歌詞を勝手に1人で語ります。"
+                "description": "アイマスについて語ります。765 AS, 765 MILLIONSTARS, 346, 315について話す予定です。"
             },
             {
                 "id": 8,
@@ -291,7 +291,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "ピンドラジオ！",
-                "description": "パーソナリティの2人が己の精神力を鍛えるべく、世の中のネガティブな出来事をひたすらポジティブにとらえていく、そんなラジオです。届け元気、鍛えろ精神！！"
+                "description": "皆さんは、アニメ｢輪るピングドラム｣をご存知ですか？独特の世界観を持つこの作品の魅力を、ご紹介していきます！"
             },
             {
                 "id": 9,
@@ -299,7 +299,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "この世の地獄ラジオ",
-                "description": "千葉県立東葛飾高校の卒業生がお送りする生ラジオ！東葛に縁のある方もない方も楽しめる内容となっておりますのでご安心ください（？）"
+                "description": "あなたはこの世の地獄について考えたことはありますか？―僕はありましぇーん。期待のルーキー虎取が先輩２人とガチ討論！？テーマは未知数！ぜひ楽しんで聞いてくれＹｏ！"
             },
             {
                 "id": 10,
@@ -307,7 +307,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "おきなみ55",
-                "description": "夕方のひととき、ラジオを聞いていきませんか？"
+                "description": "みなさんはEテレの「0655」と「2355 」という番組、ご存知ですか？「おきなみ55」ではTHK2年の“おきまゆ”と“あとなみ”コンビが溢れ出る0655,2355愛を語りつくします！本家に負けないくらいみなさんをほっこりさせちゃいます٩( 'ω' )و"
             },
             {
                 "id": 11,
@@ -315,7 +315,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "目指せ！フル単",
-                "description": "新入生によるフレッシュなラジオをお楽しみください"
+                "description": "大学生たるもの、落とせないものが一つある…。そう、単位！ そんな話です。"
             },
             {
                 "id": 12,
@@ -323,7 +323,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "一人語りっかり〜ラジオ",
-                "description": "この番組では、事前に行ったアンケートを元にアナウンス局担当代の4人がアニメについて語り、妄想します！アニメ好きの4人がどんなトークを繰り広げるのかお楽しみに！"
+                "description": "ラジオ制作局員だけどトークが苦手だった人が、最初で最後の一人パーソナリティラジオに挑戦します。今までの集大成となるのか、あるいは何か起こるのか、予測不可能です。"
             },
             {
                 "id": 13,
@@ -331,7 +331,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "でこぼころっく",
-                "description": "「我々は限界の呪縛から解き放たれることはできない。」限界を超えた先に見えたものとは？このレディオを聞いた後、あなたは思わず発してしまうだろう、その単語は…、"
+                "description": "背が高い低いコンビの2人でした。ある理由でそのアイデンティティーは消えました。もう何も残りません…どうなるのでしょうか。"
             },
             {
                 "id": 14,
@@ -339,7 +339,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "中国VS四国ラジオ",
-                "description": "今年もやります、「にちにち！」ラジオ。今回はTHKのにちにちメンバーから１・２・３年生が集結し、学年対抗で日本語力対決を行います！果たして優勝は誰の手に…！？"
+                "description": "なぜかよく一括りにされる悲劇の地方、中四国。その悲劇に幕を下ろす時が来た。中四国民THK会員による中国VS四国のフリートークバトル！今宵、中四国の覇者が決まる。"
             },
             {
                 "id": 15,
@@ -347,7 +347,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "はとくまラジオ",
-                "description": "THK一年の二人が、構成さんからの「愛のある」むちゃぶりに答えて一周り成長したTHK会員を目指します。フレッシュな一年生の成長過程をやさしく見守ってください！！"
+                "description": "以前のラジ学で話した2人で話します！どんなラジオになるのか！？是非聞きに来てください！！"
             },
             {
                 "id": 16,
@@ -355,7 +355,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "課題DJ5",
-                "description": "ゆるっとした3人でトークを繰り広げていく「ゆるラジ」。本番組中の企画では身近に潜む様々な雑学についてクイズ形式で出題します。パーソナリティの解答にも注目！"
+                "description": "新入生によるフレッシュなラジオをお楽しみください新入生によるフレッシュなラジオをお楽しみください"
             },
             {
                 "id": 17,
@@ -363,7 +363,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "ゆっきーのひとりしゃべり",
-                "description": "THKゆるふわ女子ゆめ・りか・みみみによるラジオ―――「ゆめりかみん」！！！3人が織りなすゆるふわトークをぜひ目と耳と頭を使いながらご堪能ください♡♡"
+                "description": "初めて生ラジオひとりしゃべりにチャレンジします。好きなバンドの曲をかけながらのんびり好きな映画の話をしつづけますので、ゆるゆると聞いていただければ幸いです"
             },
             {
                 "id": 18,
@@ -371,7 +371,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "THKぬいぐるみ部！",
-                "description": "ランダムで集められたメンバーによる予測のつかないラジオをお楽しみください"
+                "description": "\"もふもふは至高\" THKきってのぬいぐるみ好きたちが、その素晴らしさを語ります。大学生にこそ、ぬいぐるみは必要だ。 "
             },
             {
                 "id": 19,
@@ -387,7 +387,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 20,
                 "end_minute": 39,
                 "name": "立つ鳥跡を濁す",
-                "description": "身長伸ばしたい二人…でも大学生だし伸びない…あっ、そうだ！THK会員の〇〇を使って伸ばそう！なラジオです。"
+                "description": "あと2週間で引退する会長・副会長が、いろいろチョメチョメお話します。"
             },
             {
                 "id": 21,
@@ -395,7 +395,7 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 40,
                 "end_minute": 59,
                 "name": "じゅじゅくんとあそぼう！",
-                "description": "引退間近のラジオ制作局3年生でお送りする番組です。1、2年生に比べるとパワーでは勝てないかもしれませんが…聴かせます、3年の本気。"
+                "description": "まったり話します。まったり聴いてください。"
             },
             {
                 "id": 22,
@@ -403,92 +403,91 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "start_minute": 00,
                 "end_minute": 19,
                 "name": "dan・de・marian The Last Dance",
-                "description": "THK2016ラジオパレードスタート楽しんでいただけましたか。最後のひととき、ラジオはいかがですか？"
+                "description": "ダンデマリアン最終章！最高にハッピーでクレイジーな時間を届けます！お楽しみあれ！"
             },
-						{
-							"id": 23,
-							"hour": 17,
-							"start_minute": 20,
-							"end_minute": 39,
-							"name": "ラジ執の本気",
-							"description": ""
-						},
-						{
-							"id": 23,
-							"hour": 17,
-							"start_minute": 40,
-							"end_minute": 59,
-							"name": "エンディング",
-							"description": ""
-						},
-						}
-        ],
+			{
+				"id": 23,
+				"hour": 17,
+				"start_minute": 20,
+				"end_minute": 39,
+				"name": "ラジ執の本気",
+				"description": ""
+			},
+			{
+				"id": 23,
+				"hour": 17,
+			    "start_minute": 40,
+				"end_minute": 59,
+				"name": "エンディング",
+				"description": ""
+            },
+        ]
     },
     /*シアターは幕の順番と幕の中身を別で作成*/ 
     "theater": {
         "day1": [
             {
                 "id": 1,
-                "program": 2,
+                "program": 3,
                 "hour": 10,
                 "start_minute": 00,
-                "end_minute": 59
+                "end_minute": 50
             },
             {
                 "id": 2,
                 "hour": 11,
-                "program": 1,
+                "program": 2,
                 "start_minute": 00,
-                "end_minute": 59
+                "end_minute": 50
             },
             {
                 "id": 3,
                 "hour": 12,
                 "program": 5,
                 "start_minute": 00,
-                "end_minute": 59
+                "end_minute": 50
             },
             {
                 "id": 4,
                 "hour": 13,
-                "program": 4,
+                "program": 6,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 5,
                 "hour": 14,
-                "program": 6,
+                "program": 1,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 6,
                 "hour": 15,
-                "program": 3,
+                "program": 4,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 7,
                 "hour": 16,
-                "program": 2,
+                "program": 3,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 8,
                 "hour": 17,
-                "program": 1,
+                "program": 2,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 9,
                 "hour": 18,
-                "program": 6,
+                "program": 1,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             }
         ],
         "day2": [
@@ -497,140 +496,140 @@ v                "description": "2016年都道府県魅力度ランキング、�
                 "hour": 10,
                 "program": 4,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 2,
                 "hour": 11,
-                "program": 3,
+                "program": 2,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
 
             },
             {
                 "id": 3,
                 "hour": 12,
-                "program": 2,
+                "program": 1,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
 
             },
             {
                 "id": 4,
                 "hour": 13,
-                "program": 1,
+                "program": 5,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 5,
                 "hour": 14,
-                "program": 5,
+                "program": 3,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 6,
                 "hour": 15,
                 "program": 6,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
             {
                 "id": 7,
                 "hour": 16,
-                "program": 4,
+                "program": 5,
                 "start_minute": 00,
-                "end_minute": 59,
+                "end_minute": 50,
             },
         ],
         "theater_program": [
             {
-                "id": 1,
-                "content1": "耳の形",
-                "type1": "ラジオドラマ",
-                "img1": "img/theater_img/耳の形.png",
-                "content2": "ランドセル",
-                "type2": "朗読",
-                "img2": "img/theater_img/ランドセル.jpg",
-                "content3": "理由狐",
-                "type3": "ラジオドラマ",
-                "img3": "img/theater_img/理由狐.png",
-                "content4": "また君に会える日",
-                "type4": "MV",
-                "img4": "img/theater_img/また君に会える日.png",
+                "id" : 1,
+                "content1" : "○○しないと出られない部屋",
+                "type1" : "バラエティ",
+                "img1" : "img/theater_img/ヒーロー_アンチヒーロー.jpg",
+                "content2" : "HOPE",
+                "type2" : "ラジオドラマ",
+                "img2" : "img/theater_img/飴ちゃんは世界を救う.png",
+                "content3" : "無垢",
+                "type3" : "MV",
+                "img3" : "img/theater_img/大きな光のそばで.png",
+                "content4" : "オレンジが差し込むいつものカフェで",
+                "type4" : "ラジオドラマ",
+                "img4" : "img/theater_img/ダンディ課長の日常.png",
             },
             {
                 "id": 2,
-                "content1": "建築バラエティ！『LEGOの匠』",
-                "type1": "バラエティ",
+                "content1": "食卓一期一会",
+                "type1": "朗読",
                 "img1": "img/theater_img/建築バラエティ！『LEGOの匠』.jpg",
-                "content2": "足元は暗く",
-                "type2": "ラジオドラマ",
+                "content2": "Miracle Worker",
+                "type2": "MV",
                 "img2": "img/theater_img/足元は暗く.jpg",
-                "content3": "ひとひら。",
-                "type3": "MV",
+                "content3": "information coming soon!",
+                "type3": "information coming soon!",
                 "img3": "img/theater_img/ひとひら.jpg",
-                "content4": "スナイパーな男",
-                "type4": "ラジオドラマ",
+                "content4": "オタ恋ソーラン節",
+                "type4": "MV",
                 "img4": "img/theater_img/スナイパーな男.png",
             },
             {
                 "id": 3,
-                "content1": "閉ざされたドア",
-                "type1": "朗読",
-                "img1": "img/theater_img/閉ざされたドア.jpg",
-                "content2": "マイクノイズ、本をめくる音、台詞",
+                "content1": "金曜日のおはよう",
+                "type1": "MV",
+                "img1": "img/theater_img/耳の形.png",
+                "content2": "現代童話『幸せの青い鳥』",
                 "type2": "ラジオドラマ",
-                "img2": "img/theater_img/マイクノイズ、本をめくる音。台詞.png",
-                "content3": "旬",
-                "type3": "ドラマ",
-                "img3": "img/theater_img/旬.jpg",
-                "content4": "「わかる」の処方箋",
-                "type4": "ラジオドラマ",
-                "img4": "img/theater_img/「わかる」の処方箋.png",
+                "img2": "img/theater_img/ランドセル.jpg",
+                "content3": "PERFECT BLUE",
+                "type3": "MV",
+                "img3": "img/theater_img/理由狐.png",
+                "content4": "憧れのヒーロー",
+                "type4": "ドラマ",
+                "img4": "img/theater_img/また君に会える日.png",
             },
             {
                 "id": 4,
-                "content1": "-FLASH-",
-                "type1": "MV",
+                "content1": "アイノココロ",
+                "type1": "ラジオドラマ",
                 "img1": "img/theater_img/-FLASH-",
-                "content2": "一億総アイドル社会",
-                "type2": "ラジオドラマ",
+                "content2": "いつもの場所で待っています",
+                "type2": "ドラマ",
                 "img2": "img/theater_img/一億総アイドル社会.jpg",
-                "content3": "Mute",
-                "type3": "ドラマ",
+                "content3": "筑波大生とぽきた！！魔剤ンゴ！？",
+                "type3": "MV",
                 "img3": "img/theater_img/MUTE.png",
-                "content4": "今、ここにいること",
+            },
+            ,{
+                "id": 5,
+                "content1": "THK昔ばなし ボル太郎",
+                "type1": "ドラマ",
+                "img1": "img/theater_img/閉ざされたドア.jpg",
+                "content2": "苺のケーキ",
+                "type2": "朗読",
+                "img2": "img/theater_img/マイクノイズ、本をめくる音。台詞.png",
+                "content3": "Lost Oneself",
+                "type3": "MV",
+                "img3": "img/theater_img/旬.jpg",
+                "content4": "脇役ヒーロー",
+                "type4": "ラジオドラマ",
+                "img4": "img/theater_img/「わかる」の処方箋.png",
+            },
+            ,{
+                "id": 6,
+                "content1": "橋先端男の端を巡る話〜episode5 デキる男の10ケ条編〜",
+                "type1": "ドラマ",
+                "img1": "img/theater_img/-FLASH-",
+                "content2": "前借り",
+                "type2": "ドキュメント",
+                "img2": "img/theater_img/一億総アイドル社会.jpg",
+                "content3": "サボテン",
+                "type3": "MV",
+                "img3": "img/theater_img/MUTE.png",
+                "content4": "君がいない間に",
                 "type4": "ラジオドラマ",
                 "img4": "img/theater_img/今、ここにいること.png",
-            },
-            ,{
-                "id" : 5,
-                "content1" : "ヒーロー/アンチヒーロー",
-                "type1" : "ドラマ",
-                "img1" : "img/theater_img/ヒーロー_アンチヒーロー.jpg",
-                "content2" : "あめちゃんは世界を救う",
-                "type2" : "ラジオドラマ",
-                "img2" : "img/theater_img/飴ちゃんは世界を救う.png",
-                "content3" : "大きな光のそばで",
-                "type3" : "朗読",
-                "img3" : "img/theater_img/大きな光のそばで.png",
-                "content4" : "ダンディ課長の日常",
-                "type4" : "ラジオドラマ",
-                "img4" : "img/theater_img/ダンディ課長の日常.png",
-            },
-            ,{
-                "id" : 6,
-                "content1" : "ちゃんと...",
-                "type1" : "ドラマ",
-                "img1" : "img/theater_img/ちゃんと….png",
-                "content2" : "ただいま",
-                "type2" : "ラジオドラマ",
-                "img2" : "img/theater_img/ただいま.png",
-                "content3" : "One Small Step",
-                "type3" : "ドラマ",
-                "img3" : "img/theater_img/One Small Step.png",
             }
         ]
     }
