@@ -81,7 +81,7 @@
 
 	<!--ラジオパレード-->
 	<div class="container-fluid">
-		<div class="col-xs-12 col-lg-12 tfield bimg" id="radio" style="background-image: url(img/pictures-edited/pic-radio.png);">
+		<div class="col-xs-12 col-lg-12 tfield bimg" id="radio" style="background-image: url(img/pictures-edited/pic-radio.jpg);">
 			<!--タブメニュー-->
 			<div class="menew">
 				<!--タブのヘッダー-->
@@ -115,12 +115,27 @@
 				</div>
 				<div class="tab-pane white-fontA timetable" id="tab4">
 					タイムテーブル
-					<div id="r_daychange_button">
-						<div id="r_daychange_R"><img src="img/pictures-edited/menew-right.png" class="change_arrowR"></div>
+					<div id="radio_table_top">
+						<table class="timetable_top">
+							<tbody id="radio_day_table_top">
+								<tr>
+									<td>
+										<div id="radio_day">1日目</div>
+									</td>
+									<td>
+										<div id="r_daychange_R"> > </div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<div class="white-fontC">
-						<div id="radio_day">a</div>
-						<table class="table">
+						<table ~~~ class="table">
+							<colgrooup>
+								<col style="width:60%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+							</colgrooup>
 							<thead>
 								<tr>
 									<th>番組名</th>
@@ -133,10 +148,20 @@
 						</table>
 
 					</div>
-					<div id="r_pagechange_button" class="white-fontD">
-						<div id="r_pagechange_R"><img src="img/pictures-edited/menew-right.png" class="page_change_arrowR"></div>
+					<div id="radio_table_bottom" class="white-fontD">
+						<table class="timetable_bottom">
+							<tbody id="radio_day_table_bottom">
+								<tr>
+									<td>
+										<div id="r_page_count"></div>
+									</td>
+									<td>
+										<div id="r_pagechange_R"> > </div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
-					<div id="r_page_count" class="white-fontD">a</div>
 				</div>
 			</div>
 		</div>
@@ -144,7 +169,7 @@
 
 	<!--秋の番組発表会-->
 	<div class="container-fluid">
-		<div class="col-xs-12 col-lg-12 tfield bimg" id="theater" style="background-image: url(img/pictures-edited/pic-theater.png);">
+		<div class="col-xs-12 col-lg-12 tfield bimg" id="theater" style="background-image: url(img/pictures-edited/pic-theater.jpg);">
 			<!-- タブメニュー-->
 			<div class="menew">
 				<!--タブのヘッダー-->
@@ -184,11 +209,21 @@
 				</div>
 				<div class="tab-pane black-fontA" id="tab8">
 					タイムテーブル
-					<div id="t_daychange_button">
-						<div id="t_daychange_R"><img src="img/pictures-edited/menew-right-black.png" class="change_arrowR"></div>
+					<div id="theater_table_top">
+						<table class="timetable_top">
+							<tbody id="theater_day_table_top">
+								<tr>
+									<td>
+										<div id="theater_day">1日目</div>
+									</td>
+									<td>
+										<div id="t_daychange_R"> > </div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<div class="black-fontC">
-						<div id="theater_day">a</div>
 						<table class="table">
 							<thead>
 								<tr>
@@ -208,16 +243,17 @@
 
 	<!--others-->
 	<div class="container-fluid">
-		<div class="col-xs-12 col-lg-12 tfield bimg" id="others" style="background-image: url(img/pictures-edited/pic-others.png);">
+		<div class="col-xs-12 col-lg-12 tfield bimg" id="others" style="background-image: url(img/pictures-edited/pic-others.jpg);">
 			<!--タブメニュー-->
 			<div class="menew">
 				<ul class="nav nav-tabs nav-justified flex tab-black" style="background: rgba(0,0,0,0.6) !important;">
-					<li class="active"><a class="tab" href="#tab9" data-toggle="tab" style="color: rgba(255,255,255,0.8);">vote</a></li>
-					<li><a class="tab" href="#tab10" data-toggle="tab" style="color: rgba(255,255,255,0.8);">link</a></li>
+					<!-- <li class="active"><a class="tab" href="#tab9" data-toggle="tab" style="color: rgba(255,255,255,0.8);">vote</a></li> -->
+					<li class="active"><a class="tab" href="#tab10" data-toggle="tab" style="color: rgba(255,255,255,0.8);">link</a></li>
 				</ul>
 			</div>
 			<!--タブの中身-->
 			<div class="tab-content" style="background: rgba(0,0,0,0.8)">
+				<!--
 				<div class="tab-pane active white-fontB" id="tab9">
 					雙峰祭グランプリ投票のお願い
 					<br>
@@ -225,7 +261,8 @@
 						<br>気に入ったら清き一票を</p>
 					<a href="http://event.sohosai.tsukuba.ac.jp/search/projects/100">投票サイトへ</a>
 				</div>
-				<div class="tab-pane" id="tab10">
+				-->
+				<div class="tab-pane active" id="tab10">
 					<div class="white-fontA">THK筑波放送協会HP</div>
 					<a href="http://www.thkweb.net/" class="white-fontB">http://www.thkweb.net/</a>
 					<div id="twitter-widget">
@@ -260,10 +297,8 @@
 
 	<script>
         smoothScroll.init();
-        timeradio();
+		timeradio();
 		timertheater();
-        radio_table();
-		theater_table();
         //setInterval("timeradio(radiotime)",1000);
     </script>
 </body>
